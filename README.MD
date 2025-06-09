@@ -24,10 +24,13 @@ def polar(*args, **kwargs) -> Incomplete: ...
 
 ```
 
-### Actual output 
+### Incorrect output on Wndows
 ```py
 from _typeshed import Incomplete as Incomplete
 
 def polar(*args, **kwargs) -> Incomplete: ...
 
 ```
+
+
+Note that the stub is correctly generated on Ubuntu.
